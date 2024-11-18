@@ -1,0 +1,8 @@
+#!/bin/bash
+
+to="toxicgreys001@gmail.com"
+subject="Created Bash"
+body="Got to see it"
+from="kipronohm8@gmail.com"
+
+echo "$body" | mail -s "$subject" -r "$from" "$to"

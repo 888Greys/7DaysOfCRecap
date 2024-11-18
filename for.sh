@@ -13,7 +13,18 @@
 # echo "I like $fruits"
 # done
 
-for num in $(seq 0 4 10)
-do
-echo $num
-done
+# for num in $(seq 0 4 10)
+# do
+# echo $num
+# done
+
+
+# for i in {1..10}
+# do
+
+# if [ $i -eq 6 ]; then
+#     continue
+
+# fi
+# echo $i
+# done
